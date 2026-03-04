@@ -1,0 +1,1 @@
+ANALYZE raw_trips;

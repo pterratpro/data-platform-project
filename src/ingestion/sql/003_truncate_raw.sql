@@ -1,0 +1,1 @@
+TRUNCATE raw_trips;
