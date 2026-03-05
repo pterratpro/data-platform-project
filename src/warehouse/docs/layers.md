@@ -109,13 +109,6 @@ Transformations are modular and easier to evolve.
 
 ---
 
-# Next Evolution
+Downstream analytical layers only consume `silver_trips_valid`.
 
-This architecture can scale into a full data platform including:
-
-- Orchestration (Airflow)
-- Distributed processing (Spark)
-- Streaming ingestion (Kafka)
-- Lakehouse storage (Parquet / Delta)
-
-However, the current implementation already reflects production-oriented data engineering practices.
+The base `silver_trips` table is preserved for debugging, quality monitoring, and pipeline evolution.

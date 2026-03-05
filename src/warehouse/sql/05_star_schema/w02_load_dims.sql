@@ -1,5 +1,5 @@
-TRUNCATE dim_date;
-TRUNCATE dim_vendor;
+TRUNCATE dim_date CASCADE;
+TRUNCATE dim_vendor CASCADE;
 
 INSERT INTO dim_date (date_key, year, month, day, dow)
 SELECT
@@ -18,5 +18,5 @@ FROM (
 
 INSERT INTO dim_vendor (vendor_id)
 SELECT DISTINCT vendor_id
-FROM silver_trips
+FROM silver_trips_valid
 ORDER BY vendor_id;

@@ -14,4 +14,4 @@ SELECT
   is_geo_valid,
   is_duration_valid,
   is_time_valid
-FROM silver_trips;
+FROM silver_trips_valid;

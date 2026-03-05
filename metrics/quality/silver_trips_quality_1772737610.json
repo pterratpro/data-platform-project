@@ -1,0 +1,24 @@
+{
+  "timestamp_utc": "2026-03-05T19:06:47.949836+00:00",
+  "table": "silver_trips",
+  "total_rows": 1458644,
+  "checks": {
+    "duplicate_primary_key_rows": 0,
+    "null_critical_fields_rows": 0,
+    "invalid_time_rows": 0,
+    "invalid_duration_rows": 2061,
+    "invalid_geo_rows": 0
+  },
+  "ratios": {
+    "invalid_time_ratio": 0.0,
+    "invalid_duration_ratio": 0.001412956142828545,
+    "invalid_geo_ratio": 0.0
+  },
+  "thresholds": {
+    "max_invalid_time_ratio": 0.001,
+    "max_invalid_duration_ratio": 0.01,
+    "max_invalid_geo_ratio": 0.01
+  },
+  "status": "PASS",
+  "duration_ms": 2893
+}
